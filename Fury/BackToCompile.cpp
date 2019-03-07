@@ -31,7 +31,7 @@ bool BackToCompile::CallApkTool(const CString& BackToCompileApkPath)
 	strCmdLine += _T(" b ");
 	strCmdLine += BackToCompileApkPath;   //构造CMD的命令行  java -jar ...apktool.jar d *.apk
 
-
+	//一些改变
 	//创建进程
 	STARTUPINFO si = { sizeof(si) };
 	PROCESS_INFORMATION pi;
