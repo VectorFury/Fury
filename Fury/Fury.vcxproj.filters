@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="反编译">
+      <UniqueIdentifier>{e43358b6-0e9c-427c-aaa9-ea75af270c5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="回编译">
+      <UniqueIdentifier>{578bbed1-fab6-497d-b5c7-72aad73dfcc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="查壳">
+      <UniqueIdentifier>{c2631f57-99d2-4297-bffc-26b4b85e432e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="脱壳">
+      <UniqueIdentifier>{25709e13-e613-4dcb-b970-0ef5749e44fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fury.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FuryDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Decompilation.h">
+      <Filter>反编译</Filter>
+    </ClInclude>
+    <ClInclude Include="BackToCompile.h">
+      <Filter>回编译</Filter>
+    </ClInclude>
+    <ClInclude Include="FindProtectType.h">
+      <Filter>查壳</Filter>
+    </ClInclude>
+    <ClInclude Include="KillProtectShell.h">
+      <Filter>脱壳</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Fury.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FuryDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Decompilation.cpp">
+      <Filter>反编译</Filter>
+    </ClCompile>
+    <ClCompile Include="BackToCompile.cpp">
+      <Filter>回编译</Filter>
+    </ClCompile>
+    <ClCompile Include="FindProtectType.cpp">
+      <Filter>查壳</Filter>
+    </ClCompile>
+    <ClCompile Include="KillProtectShell.cpp">
+      <Filter>脱壳</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Fury.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Fury.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Fury.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
