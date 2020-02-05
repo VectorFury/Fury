@@ -1,2 +1,2 @@
 # Fury
-A tool for analysis android application
+A tool for analysis android application haha!
